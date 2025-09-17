@@ -14,6 +14,9 @@ const config: StorybookConfig = {
   "framework": {
     "name": "@storybook/react-vite",
     "options": {}
-  }
+  },
+  // 新增這行：
+  "staticDirs": ['../storybook-static/assets'],
 };
+
 export default config;
